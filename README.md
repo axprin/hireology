@@ -5,7 +5,7 @@ This solution was adapted from the blogpost found here: http://www.adomokos.com/
 
 Summary:
 
-The challenge consisted of writing logic to handle permissions and inheritence of those permissions. My solution relies on some assumptions that I made about the permissions:
+The challenge consisted of writing logic to handle permissions and inheritence of those permissions through a multi tired organizational structure. My solution relies on some assumptions that I made about the permissions:
 
 1. Admin role always has access to all of its child orgs, unless they are explicitely denied.
 2. User roles do not have access to their child orgs, but their parent orgs do have access to them.
