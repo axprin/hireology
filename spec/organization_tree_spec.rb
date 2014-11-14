@@ -27,16 +27,4 @@ describe "OrganizationTree" do
       expect(org_tree2.find_root_org).to eq(root)
     end
   end
-
-  # describe "print_all_access_levels" do
-  #   let(:root){Organization.new(name:"Root", parent:nil, access_level:"Admin")}
-  #   let(:org1){Organization.new(name:"Org1", parent:root, access_level:"Admin")}
-  #   let(:child1){Organization.new(name:"Child1", parent:org1, children:nil, access_level:"Admin")}
-  #   let(:org_tree2){OrganizationTree.new()}
-
-  #   it "should print all the proper access levels for all orgs" do
-  #     org_tree2.print_all_access_levels
-  #     expect(org_tree2.print_all_access_levels).to eq(root)
-  #   end
-  # end
 end
