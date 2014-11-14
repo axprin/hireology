@@ -15,6 +15,6 @@ I have 2 files, one containing the Organization class and the other containing t
 
 To see the tests run:
 
-1) In the terminal, navigate to the root directory of the project.
-2) Type 'bundle install' to install the necessary gems.
-3) Type 'rspec spec' to see the tests run.
+1. In the terminal, navigate to the root directory of the project.
+2. Type 'bundle install' to install the necessary gems.
+3. Type 'rspec spec' to see the tests run.
